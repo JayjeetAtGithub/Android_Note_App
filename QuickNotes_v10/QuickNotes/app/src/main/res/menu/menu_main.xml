@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="noteapp.jc.com.quicknotes.MainActivity">
+    <item
+    android:id="@+id/action_share"
+    android:orderInCategory="1"
+    android:title="Share App"
+    app:showAsAction="never" />
+    <item
+        android:id="@+id/action_about"
+        android:orderInCategory="2"
+        android:title="About"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_rules"
+        android:orderInCategory="3"
+        android:icon="@mipmap/ic_priority_high_white_24dp"
+        app:showAsAction="ifRoom" />
+</menu>
